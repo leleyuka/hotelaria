@@ -1,0 +1,67 @@
+<style>
+
+.carousel-inner{
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: none;
+    background-size: cover;
+}
+
+.item img{
+    opacity: 0.4;
+}
+.carousel-caption{
+    bottom: 80px;
+    font-size: 100px;
+    font-weight: 100px;
+    color: #eeeeee;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+</style>
+  
+  
+  <!-- o id deve se chamar myCarousel, classe carousel slide, data-ride � uma propriedade com o nome carousel  -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicadores para saber as ordens das imagens(data-slide-to="0") e informar numero de imagens, 5,8,10 e a  class="active" informa aonde inicia  -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- classe inner-->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="carrossel/quarto6.jpg" alt="concentrate" style="padding-left: 18vw;">
+      <div class="carousel-caption">
+        <h1>Seja Bem Vindo ao Avandra Hotel</h1>
+        <h2 style="color:#ce992f">Para uma reserva, basta acessar sua área Usuário</h2>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="carrossel/LOU.jpg" alt="quarto2" style="padding-left: 18vw;">
+      <div class="carousel-caption">
+      <h2>Reservar Hotéis com Avandra é sempre a melhor escolha</h2>
+      <h3 style="color:#ce992f">Acesse AvandraHotel.com</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="carrossel/cra.jpg" alt="quarto3" style="padding-left: 11vw; padding-right: 11vw;">
+      <div class="carousel-caption">
+        <h1>Estamos entre os Melhores</h1>
+        <h2 style="color:#ce992f">se destacando cada vez mais</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controles de imagens para direita e para esquerda 
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Próximo</span>
+  </a> -->
+</div>
